@@ -27,7 +27,6 @@ Highlights:
 <img width="958" alt="image" src="./demo/5.png">
 <img width="958" alt="image" src="./demo/6.png">
 <img width="958" alt="image" src="./demo/7.png">
-<img width="958" alt="image" src="./demo/0.png">
 <img width="958" alt="image" src="./demo/8.png">
 <img width="958" alt="image" src="./demo/9.png">
 
