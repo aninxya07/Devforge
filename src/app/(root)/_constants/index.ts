@@ -14,28 +14,6 @@ type LanguageConfig = Record<
 >;
 
 export const LANGUAGE_CONFIG: LanguageConfig = {
-  javascript: {
-    id: "javascript",
-    label: "JavaScript",
-    logoPath: "/javascript.png",
-    pistonRuntime: { language: "javascript", version: "18.15.0" }, // api that we're gonna be using
-    monacoLanguage: "javascript",
-    defaultCode: `// JavaScript Playground
-const numbers = [1, 2, 3, 4, 5];
-
-// Map numbers to their squares
-const squares = numbers.map(n => n * n);
-console.log('Original numbers:', numbers);
-console.log('Squared numbers:', squares);
-
-// Filter for even numbers
-const evenNumbers = numbers.filter(n => n % 2 === 0);
-console.log('Even numbers:', evenNumbers);
-
-// Calculate sum using reduce
-const sum = numbers.reduce((acc, curr) => acc + curr, 0);
-console.log('Sum of numbers:', sum);`,
-  },
   cpp: {
     id: "cpp",
     label: "C++",
@@ -143,6 +121,28 @@ print(f"Even numbers: {even_numbers}")
 # Calculate sum
 numbers_sum = sum(numbers)
 print(f"Sum of numbers: {numbers_sum}")`,
+  },
+  javascript: {
+    id: "javascript",
+    label: "JavaScript",
+    logoPath: "/javascript.png",
+    pistonRuntime: { language: "javascript", version: "18.15.0" }, // api that we're gonna be using
+    monacoLanguage: "javascript",
+    defaultCode: `// JavaScript Playground
+const numbers = [1, 2, 3, 4, 5];
+
+// Map numbers to their squares
+const squares = numbers.map(n => n * n);
+console.log('Original numbers:', numbers);
+console.log('Squared numbers:', squares);
+
+// Filter for even numbers
+const evenNumbers = numbers.filter(n => n % 2 === 0);
+console.log('Even numbers:', evenNumbers);
+
+// Calculate sum using reduce
+const sum = numbers.reduce((acc, curr) => acc + curr, 0);
+console.log('Sum of numbers:', sum);`,
   },
   typescript: {
     id: "typescript",
