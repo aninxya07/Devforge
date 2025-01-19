@@ -1,12 +1,8 @@
 <h1 align="center">✨ SaaS Code Editor (Devforge) - Next.js 15 ✨</h1>
 
-<<<<<<< HEAD
 <p align="center">
   <a href="https://example.com/demo-link">Demo app</a>
 </p>
-=======
-![Demo App](https://example.com/demo-image-link)
->>>>>>> 563cb7a (second commit)
 
 Highlights:
 
