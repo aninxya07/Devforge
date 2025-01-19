@@ -1,6 +1,6 @@
 <h1 align="center">✨ SaaS Code Editor (Devforge) - Next.js 15 ✨</h1>
 
-![Demo App](/public/screenshot-for-readme.png)
+<h3 align="center">![Demo App](https://example.com/demo-image-link)</h3>
 
 Highlights:
 
